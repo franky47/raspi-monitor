@@ -1,0 +1,21 @@
+{
+  "name": "raspi-monitor",
+  "version": "1.0.0",
+  "description": "System monitor for a Raspberry Pi based on Node.js. Reports sent to dweet.io and displayed on a freeboard.io dashboard",
+  "main": "raspi-monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "François Best <francois.best@fortyseveneffects.com> (http://fortyseveneffects.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Franky47/raspi-monitor.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bytes": "^2.2.0",
+    "moment": "^2.11.2",
+    "os-monitor": "^1.0.4",
+    "request": "^2.69.0"
+  }
+}
